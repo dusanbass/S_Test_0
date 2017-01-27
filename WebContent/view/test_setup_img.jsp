@@ -39,7 +39,7 @@ if(alGearList != null && alGearList.size() > 0)
 ArrayList<Gear> alGear = dao.getAllGear();
 %>
 <!-- MEHANIZAM ZA SLIKE -->
-<form method="POST" enctype="multipart/form-data" action="ServletInsertImg">
+<form method="POST" enctype="multipart/form-data" action="ServletInsertImage">
   <label>Image to upload &nbsp<input type="file" name="upfile"><br/></label>
   <label>Description &nbsp<input type="text" name="alt"></label><br/>
   <br/>
